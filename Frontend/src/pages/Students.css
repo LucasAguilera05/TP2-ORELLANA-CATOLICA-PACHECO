@@ -1,0 +1,122 @@
+.contentStudents {
+    flex-grow: 1;
+    padding: 0;
+    position: relative;
+  }
+  
+  .contentStudents #head-Students {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+    background: #fff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(97, 96, 96, 0.75);
+  }
+  
+  .contentStudents #head-Students h1 {
+    margin: 0;
+  }
+  
+  .contentStudents #head-Students button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkturquoise;
+    color: white;
+    border: 2px solid rgb(109, 151, 151);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  #bodyContent-Students .search input {
+    width: calc(100% - 40px);
+    margin: 15px;
+    border: 1px solid rgba(97, 96, 96, 0.75);
+    padding: 5px;
+  }
+  
+  table {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    border-collapse: collapse;
+  }
+  
+  tr, th {
+    border: 1px solid rgba(97, 96, 96, 0.75);
+  }
+  
+  th {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .feetContent-Students {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #paginationControls {
+    display: flex;
+    align-items: center;
+  }
+  
+  #paginationControls button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: darkturquoise;
+    color: black;
+    cursor: pointer;
+  }
+  
+  #paginationControls #pageNumbers button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(27, 108, 108);
+    color: white;
+  }
+  
+  #paginationControls button:disabled {
+    background-color: rgb(27, 108, 108);
+    cursor: not-allowed;
+    color: white;
+  }
+  
+  #paginationControls #pageNumbers button:hover {
+    background-color: darkturquoise;
+  }
+  
+  #paginationControls #pageNumbers button[style*="font-weight: bold"] {
+    font-weight: bold;
+    background-color: darkturquoise;
+    color: black;
+  }
+  
+  .delete-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: 2px solid rgb(87, 6, 6);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+
+.delete-button:hover {
+    background-color: #e95858; 
+}

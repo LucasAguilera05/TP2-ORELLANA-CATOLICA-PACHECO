@@ -1,0 +1,84 @@
+.contentForm {
+    flex-grow: 1;
+    padding: 0;
+    position: relative;
+  }
+  
+  .contentForm #head-Form {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+    background: #fff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(97, 96, 96, 0.75);
+  }
+  
+  .contentForm #head-Form h1 {
+    margin: 0;
+  }
+  
+  .contentForm #head-Form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(227, 22, 22);
+    color: #fff;
+    border: 2px solid rgb(87, 6, 6);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  #bodyContent-Form {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(97, 96, 96, 0.75);
+    width: calc(100% - 40px);
+    margin: 0 15px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #bodyContent-Form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkturquoise;
+    color: #fff;
+    border: 2px solid rgb(109, 151, 151);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  form div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    grid-column: 1 / 2; 
+  }
+  
+  .input {
+    grid-column: 2 / 3;
+    width: 100%; 
+    max-width: 50%;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+    grid-column: 2 / 3; 
+    margin-top: 4px;
+  }
+  

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout-root {
+  display: flex;
+  height: 100vh;
+  width: 100vw; 
+}
+
+.layout-menu {
+  width: 200px;
+  padding: 20px 0 0 20px;
+  background-color: darkturquoise;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  flex-shrink: 0; 
+  height: 100vh;
+}
+
+.layout-menu h2 {
+  text-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.75); 
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.layout-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+  color: black;
+  transition: font-weight 0.3s ease, background-color 0.3s ease;
+}
+
+.menu-link.active {
+  background-color: white;
+  font-weight: bold;
+}
+
+.layout-main-content {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+
+
